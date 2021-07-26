@@ -1,0 +1,109 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--ion-color-dark-purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+.light-mode {
+    background-color: var(--ion-color-light-purple);
+    color: whitesmoke;
+}
+.main-wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.hamburger{
+    margin-right: auto;
+}
+.toolbar-background {
+    background-color: var(--ion-color-light-purple)
+}
+ .heros-section{
+   display: flex;
+   flex-direction: column; 
+   width: 100vw;
+   height: 50%; 
+   
+}
+.clear-btn {
+    background-color: var(--ion-color-dark-purple);
+    color: white;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
+.input-section {
+    border-bottom: 5px solid white;
+    color: white;
+    font-size: 3em;
+}
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    font-size: 25px;
+    color: white;
+    background-color: var(--ion-color-dark-purple);
+    border: solid 0.5px whitesmoke;
+    border-radius: 50%;
+   
+  }
+  .button-wrapper:hover {
+    border-width: 4px;
+  }
+ 
+  .operator {
+      background-color: yellow;
+      color: var(--ion-color-dark-purple);
+      border: 2px solid var(--ion-color-dark-purple);
+      
+  }
+  .button-section {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .button-row{
+      font-size: 2em;
+     
+  }
+  .zero-btn {
+      border-radius: 20px;
+      margin-top: 5px;
+      
+      
+  }
+  .equal-btn {
+      height: 105px;
+      width: 55px;
+      border-radius: 15px;
+  }
+  .floatLabel {
+      margin-bottom: 55px;
+      font-size: 2em;
+      color: white;
+  }
+
+  @media screen and  (min-width: 768px) {
+      .button-section {
+          justify-content: center;
+          align-items: center;
+
+      };
+  }
